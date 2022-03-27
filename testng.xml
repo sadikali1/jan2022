@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="methods" thread-count="3" name="Suite">
+	
+<!--
+	<test name="Test 1">		
+		<classes>
+			<class name="com.test.IFrameExample" />	
+			<class name="com.test.ActionsExample" />	
+			<class name="com.test.Example1" />	
+			<class name="com.test.CheckBox" />	
+			<class name="com.test.GetExamples" />		
+			<class name="com.test.SeleniumAlert" />			
+		</classes>
+	</test>  -->
+
+	<test name="Test 2">		
+		<classes>
+			<class name="com.test.ActionsExample" >	
+				<methods>
+					<exclude name="example1" /> 					
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+
+</suite> <!-- Suite -->
